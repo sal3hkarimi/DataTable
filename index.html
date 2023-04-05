@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" />
-    
-    <title>Datatable</title>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <title>Datatable</title>
 </head>
 
 <body>
-    <table id="example" class="display" style="width:100%">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Extn.</th>
-                <th>Start date</th>
-                <th>Salary</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Extn.</th>
-                <th>Start date</th>
-                <th>Salary</th>
-            </tr>
-        </tfoot>
+  <div class="table-responsive">
+    <table id="table" class="display" style="width:100%">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Count</th>
+          <th>Rate</th>
+          <th>Total(IRT)</th>
+          <th>Track ID</th>
+          <th>Date</th>
+          <th>Status</th>
+          <th>Invoice</th>
+        </tr>
+        <tr>
+          <td>133</td>
+          <td>155.98 tst stat</td>
+          <td>31,650 stat</td>
+          <td>5,000,000 stat</td>
+          <td>BuVHncfjJd stat</td>
+          <td>1401/02/22 12:28 stat</td>
+          <td><span class="badge bg-success">Paid</span></td>
+          <td><a class="btn btn-primary" href="#"><i class="fa fa-file-invoice"></i></a></td>
+        </tr>
+      </thead>
     </table>
-    
-    <script src="jquery.min.js"></script>
-    <script src="bootstrap.bundle.min.js"></script>
-    <script src="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  </div>
+
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
 
 
-<script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
